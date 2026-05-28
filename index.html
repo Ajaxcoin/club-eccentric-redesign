@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Club Eccentric - Southport's premier gentlemen's club offering upscale, discreet adult entertainment. Open 7 days a week from 10pm. Located at 8 Coronation Walk, Southport.">
+  <meta name="keywords" content="gentlemen's club southport, club eccentric, adult entertainment southport, lap dancing southport, VIP experience southport, nightlife southport">
+  <meta property="og:title" content="Club Eccentric | Southport's Premier Gentlemen's Club">
+  <meta property="og:description" content="Upscale, discreet adult entertainment in the heart of Southport. Open 7 nights a week.">
+  <meta property="og:type" content="website">
+  <title>Club Eccentric | Southport's Premier Gentlemen's Club</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:bg-accent-rose focus:text-white focus:px-4 focus:py-2 focus:rounded-sm">Skip to content</a>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-transparent transition-all duration-500">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="index.html" class="text-2xl font-display font-bold text-text-heading tracking-wider">
+          ECCENTRIC
+        </a>
+
+        <!-- Desktop Nav -->
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="nav-link nav-link-active">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="venue.html" class="nav-link">Venue</a>
+          <a href="gallery.html" class="nav-link">Gallery</a>
+          <a href="girls.html" class="nav-link">The Girls</a>
+          <a href="work.html" class="nav-link">Dance For Us</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="menu-toggle" class="lg:hidden text-text-heading" aria-label="Toggle menu">
+          <svg id="menu-icon" class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+          <svg id="close-icon" class="w-7 h-7 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-bg-primary/98 backdrop-blur-lg border-t border-border-subtle">
+      <div class="px-6 py-8 space-y-6">
+        <a href="index.html" class="block nav-link nav-link-active">Home</a>
+        <a href="about.html" class="block nav-link">About</a>
+        <a href="venue.html" class="block nav-link">Venue</a>
+        <a href="gallery.html" class="block nav-link">Gallery</a>
+        <a href="girls.html" class="block nav-link">The Girls</a>
+        <a href="work.html" class="block nav-link">Dance For Us</a>
+        <a href="contact.html" class="block nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="main" class="relative min-h-[75vh] flex items-center justify-center overflow-hidden pt-20">
+    <!-- Background gradient -->
+    <div class="absolute inset-0 bg-gradient-to-b from-bg-primary via-bg-surface to-bg-primary"></div>
+    <!-- Decorative glow -->
+    <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent-rose/5 rounded-full blur-3xl"></div>
+
+    <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <p class="text-accent-gold text-sm tracking-[0.3em] uppercase mb-6 fade-in-immediate" style="animation-delay: 0.2s; opacity: 0;">Southport's Premier Gentlemen's Club</p>
+      <h1 class="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-text-heading mb-6 fade-in-immediate" style="animation-delay: 0.4s; opacity: 0;">
+        Club <span class="text-gradient">Eccentric</span>
+      </h1>
+      <div class="gold-divider mx-auto mb-8 fade-in-immediate" style="animation-delay: 0.6s; opacity: 0;"></div>
+      <p class="text-lg md:text-xl text-text-body max-w-2xl mx-auto mb-10 leading-relaxed fade-in-immediate" style="animation-delay: 0.8s; opacity: 0;">
+        Upscale, discreet adult entertainment in an intimate, sumptuous setting.
+        Open Thursday through Sunday in the heart of Southport.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in-immediate" style="animation-delay: 1s; opacity: 0;">
+        <a href="contact.html" class="btn-primary">Book a Table</a>
+        <a href="gallery.html" class="btn-outline">Take a Tour</a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-accent-rose/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Hours & Info Bar -->
+  <section class="bg-bg-surface border-y border-border-subtle">
+    <div class="max-w-6xl mx-auto px-6 py-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+        <div class="fade-in">
+          <p class="text-accent-rose text-sm tracking-widest uppercase mb-2">Sun &amp; Thurs</p>
+          <p class="text-text-heading font-display text-xl md:text-2xl">10pm - 2am</p>
+        </div>
+        <div class="fade-in">
+          <p class="text-accent-rose text-sm tracking-widest uppercase mb-2">Fri &amp; Sat</p>
+          <p class="text-text-heading font-display text-xl md:text-2xl">10pm - 5am</p>
+        </div>
+        <div class="fade-in">
+          <p class="text-accent-rose text-sm tracking-widest uppercase mb-2">Please Note</p>
+          <p class="text-text-body font-display text-base md:text-lg italic">Hours can vary at manager discretion</p>
+        </div>
+        <div class="fade-in">
+          <p class="text-accent-rose text-sm tracking-widest uppercase mb-2">Reservations</p>
+          <p class="text-text-heading font-display text-lg">
+            <a href="tel:01704542121" class="hover:text-accent-rose transition-colors">(01704) 542 121</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-4xl mx-auto px-6 pt-6 pb-2 border-t border-border-subtle mt-6">
+      <p class="text-center text-text-muted/30 text-[10px] tracking-[0.3em] uppercase mb-3">Premium Partners</p>
+      <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10">
+        <span class="text-text-muted/40 font-display text-xs md:text-sm tracking-widest uppercase">Grey Goose</span>
+        <span class="text-text-muted/40 font-display text-xs md:text-sm tracking-widest uppercase">Laurent-Perrier</span>
+        <span class="text-text-muted/40 font-display text-xs md:text-sm tracking-widest uppercase">Mo&euml;t &amp; Chandon</span>
+        <span class="text-text-muted/40 font-display text-xs md:text-sm tracking-widest uppercase">Armand de Brignac</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section class="section-padding bg-gradient-dark">
+    <div class="container-narrow">
+      <div class="text-center max-w-3xl mx-auto">
+        <p class="text-accent-gold text-sm tracking-[0.3em] uppercase mb-4 fade-in">Welcome</p>
+        <h2 class="text-3xl md:text-5xl font-display font-bold text-text-heading mb-6 fade-in">
+          An Unforgettable Evening
+        </h2>
+        <div class="gold-divider mx-auto mb-8 fade-in"></div>
+        <p class="text-text-body text-lg leading-relaxed mb-6 fade-in">
+          Club Eccentric is centrally located in the town centre of Southport, surrounded by all hotels and attractions in the area. We are a hotspot among gentlemen's clubs, offering upscale, discreet adult entertainment until the very late hours in an intimate, sumptuous setting.
+        </p>
+        <p class="text-text-body text-lg leading-relaxed mb-10 fade-in">
+          From continuous pole dancing shows to private dance booths and our exclusive VIP champagne room, expect a warm welcome and impeccable service from the moment you arrive.
+        </p>
+        <a href="about.html" class="btn-outline fade-in">Discover More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section-padding bg-bg-primary">
+    <div class="container-narrow">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="card text-center fade-in">
+          <div class="w-14 h-14 mx-auto mb-5 rounded-full bg-accent-rose/10 flex items-center justify-center">
+            <svg class="w-7 h-7 text-accent-rose" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-display font-semibold text-text-heading mb-3">Live Entertainment</h3>
+          <p class="text-text-body leading-relaxed">Continuous pole dancing shows all night long, with each of our stunning performers bringing their own unique routine.</p>
+        </div>
+        <div class="card text-center fade-in">
+          <div class="w-14 h-14 mx-auto mb-5 rounded-full bg-accent-rose/10 flex items-center justify-center">
+            <svg class="w-7 h-7 text-accent-rose" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-display font-semibold text-text-heading mb-3">VIP Experience</h3>
+          <p class="text-text-body leading-relaxed">Private dance booths and our exclusive Supreme VIP champagne room for an elevated, intimate experience.</p>
+        </div>
+        <div class="card text-center fade-in">
+          <div class="w-14 h-14 mx-auto mb-5 rounded-full bg-accent-rose/10 flex items-center justify-center">
+            <svg class="w-7 h-7 text-accent-rose" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-display font-semibold text-text-heading mb-3">Premium Bar</h3>
+          <p class="text-text-body leading-relaxed">A superb selection of champagnes, wines, beers and spirits. Featuring Mo&euml;t, Laurent-Perrier, Armand de Brignac and Grey Goose.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="relative section-padding overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-accent-rose/10 via-bg-surface to-accent-gold/5"></div>
+    <div class="relative container-narrow text-center">
+      <h2 class="text-3xl md:text-5xl font-display font-bold text-text-heading mb-6 fade-in">
+        Ready for an Exceptional Night?
+      </h2>
+      <p class="text-text-body text-lg max-w-2xl mx-auto mb-10 fade-in">
+        Whether you're planning a special evening out, a stag party, corporate event, or simply a great night, we're here to make it memorable.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in">
+        <a href="tel:01704542121" class="btn-primary">Call (01704) 542 121</a>
+        <a href="contact.html" class="btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-bg-primary border-t border-border-subtle">
+    <div class="max-w-6xl mx-auto px-6 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <!-- Brand -->
+        <div class="md:col-span-1">
+          <h3 class="text-2xl font-display font-bold text-text-heading tracking-wider mb-4">ECCENTRIC</h3>
+          <p class="text-text-muted text-sm leading-relaxed">Southport's premier gentlemen's club. Upscale, discreet entertainment Thursday through Sunday.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="text-sm text-accent-rose tracking-widest uppercase mb-4">Navigate</h4>
+          <ul class="space-y-3">
+            <li><a href="index.html" class="text-text-muted text-sm hover:text-accent-rose transition-colors">Home</a></li>
+            <li><a href="about.html" class="text-text-muted text-sm hover:text-accent-rose transition-colors">About Us</a></li>
+            <li><a href="venue.html" class="text-text-muted text-sm hover:text-accent-rose transition-colors">Venue</a></li>
+            <li><a href="gallery.html" class="text-text-muted text-sm hover:text-accent-rose transition-colors">Gallery</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-sm text-accent-rose tracking-widest uppercase mb-4">More</h4>
+          <ul class="space-y-3">
+            <li><a href="girls.html" class="text-text-muted text-sm hover:text-accent-rose transition-colors">The Girls</a></li>
+            <li><a href="work.html" class="text-text-muted text-sm hover:text-accent-rose transition-colors">Dance For Us</a></li>
+            <li><a href="contact.html" class="text-text-muted text-sm hover:text-accent-rose transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h4 class="text-sm text-accent-rose tracking-widest uppercase mb-4">Find Us</h4>
+          <address class="not-italic space-y-3 text-sm text-text-muted">
+            <p>8 Coronation Walk<br>Southport PR8 1RE</p>
+            <p><a href="tel:01704542121" class="hover:text-accent-rose transition-colors">(01704) 542 121</a></p>
+            <p><a href="mailto:info@eccentricgentsclub.com" class="hover:text-accent-rose transition-colors">info@eccentricgentsclub.com</a></p>
+          </address>
+        </div>
+      </div>
+
+      <div class="border-t border-border-subtle mt-12 pt-8 text-center">
+        <p class="text-text-muted text-xs tracking-wider">&copy; 2026 Club Eccentric. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black/90 items-center justify-center p-4">
+    <button id="lightbox-close" class="absolute top-6 right-6 text-white/70 hover:text-white transition-colors" aria-label="Close">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/>
+      </svg>
+    </button>
+    <img id="lightbox-img" class="max-w-full max-h-[90vh] object-contain rounded" src="" alt="Gallery image">
+  </div>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>
